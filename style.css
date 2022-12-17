@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.landing{
+    height: 100%;
+    background: black;
+}
+.head{
+    color: orange;
+}
+.head2{
+    color: red;
+}
+.header{
+    padding: 15px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.links a{
+    color: crimson;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a:hover{
+    color: dodgerblue;
+}
+.info{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.image{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+.main{
+    display: flex;
+    height: calc(100% - 50px);
+}
+.image img{
+    border-radius: 50% 50% 0 50%;
+    width: 400px;
+    height: 400px;
+}
+.i{
+    font-size: 4em  ;
+    color: white    ;
+}
+.m{
+    font-size: 3em;
+    color: crimson;
+}
+.d{
+    font-size: 3em;
+    color: orange;;
+}
+.social{
+    display: flex;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 52, 52);
+    margin: 7px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease;
+}
+.box:hover{
+    transform: scale(0.8);
+}
+.w-90{
+    width: 80%;
+    margin: auto;
+
+}
+.title{
+    font-size: 2em;
+    color: black;
+    
+}
+.about{
+    margin-top: 20px;
+
+}
+.d-{
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.title{
+    margin-top: 20px;
+}
+.skills-parents{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.skill-box{
+    width: 230px;
+    height: 300px;
+    background: black;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+
+}
+.box-title{
+    color: crimson;
+    font-size: 20px;
+}
+.skill-box li{
+    margin: 8px;
+}
+.contact{
+    background-color: black;
+    height: 400px;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.details{
+    width: 50%;
+    height: 90px;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+   margin-top: 30px;
+}
+.name{
+    font-size: 2em;
+}
+.form{
+    width: 50%;
+    height: 90px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+#area{
+    resize: none;
+    width: 70%;
+    height: 30px;
+
+}
+#sub{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+
+}
+@media only screen and (max-width: 600px) {
+   .main{
+    /* display: block; */
+   }
+  }
+
